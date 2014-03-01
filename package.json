@@ -1,0 +1,25 @@
+{
+  "name": "site",
+  "version": "0.0.1",
+  "description": "laurenchilcote.com",
+  "main": "index.html",
+  "dependencies": {
+    "node-static": "~0.7.3"
+  },
+  "devDependencies": {
+    "node-static": "^0.7.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/letsbleachthis/site.git"
+  },
+  "author": "Lauren Chilcote",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/letsbleachthis/site/issues"
+  },
+  "homepage": "https://github.com/letsbleachthis/site"
+}
