@@ -1,0 +1,610 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+html,body {
+	background: #fff;
+	font-family: 'sofia_pro_lightregular',"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #000;
+	line-height: 1.5;
+}
+h2{
+	font-family: 'sanchez_slabregular', serif;
+	font-size: 32px;
+	line-height: 32px;
+	margin-bottom: 25px;
+}
+h3 {
+	font-family:'sofia_pro_lightregular',"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 21px;
+	line-height: 21px;
+	color: #fff;
+	text-transform: uppercase;
+}
+h4 {
+	font-family: 'sanchez_slabregular', serif;
+	text-transform: uppercase;
+	margin-top: 45px;
+	text-align: left;
+	letter-spacing: .5px;
+	border-bottom: 1px solid #000;
+}
+a:visited {
+	color:inherit;
+}
+.container {
+	text-align: center;
+}
+.full-width {
+	width: 100%;
+}
+.zigzag-up {
+	background:url(../images/zigzag-up.png) repeat-x;
+	height: 16px;
+	margin-top: 60px;
+}
+.zigzag-down {
+	background:url(../images/zigzag-down.png) repeat-x;
+	height: 16px;
+	margin-bottom: 60px;
+}
+
+/*------------HEADER------------*/
+
+header {
+	background: url(../images/bg-natural.jpg);
+	/*padding: 0 0 35px 0;*/
+}
+.header-banner {
+	background:url(../images/bg-banner.png);
+	height: 25px;
+	opacity: .5;
+	margin-bottom: 50px;
+}
+.hide-text {
+     text-indent: -9999px;
+     white-space: nowrap;
+     overflow: hidden;
+     background-repeat: no-repeat;
+     background-position: top left;
+     line-height: 0px;
+     margin: 0px;
+}
+#main-nav {
+	margin: 10px 0;
+}
+#main-nav ul {
+	margin-bottom: 0;
+}
+
+#main-nav ul li {
+	display: inline;
+}
+#main-nav ul li.border {
+	border-right: 1px solid #000;
+}
+#main-nav ul li a {
+	text-decoration: none;
+	color: #000;
+	margin: 0 12px;
+	font-size: 20px;
+}
+header .zigzag-up {
+	margin-top: 30px;
+}
+
+/*------------WORK------------*/
+#work {
+	background: #fff;
+	padding: 40px 0px;
+}
+
+.thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+
+/*------------SERVICES------------*/
+
+#services {
+	background:url(../images/bg-natural.jpg);
+	padding: 0;
+}
+#services h2 {
+     font-family: 'sanchez_slabregular', serif;
+     position: relative;
+     z-index: 2;
+}
+#services h2 span {
+    background: url(../images/bg-natural.jpg);
+    padding: 0 25px;
+}
+#services h2::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+}
+
+.services-banner {
+	background:url(../images/bg-banner.png);
+	opacity: .5;
+	position:absolute;
+	margin-top: 110px;
+	height: 225px;
+}
+.circle {
+	background:url(../images/sprite-services.png);
+	border-radius:100%;
+	margin-top: 50px;
+	width: 175px;
+	height: 175px;
+	display: inline-block;
+	text-align: center;
+}
+.circle.strategize {
+	background-position: 0px 0px;
+}
+.circle.design {
+	background-position: -180px 0px;
+}
+.circle.build {
+	background-position: -360px 0px;
+}
+#services p {
+	text-align: left;
+}
+
+/*------------ABOUT------------*/
+
+#about {
+	background: #fff;
+	padding: 60px 0px;
+}
+#about h2 {
+     font-family: 'sanchez_slabregular', serif;
+     position: relative;
+     z-index: 2;
+}
+#about h2 span {
+    background: #fff;
+    padding: 0 25px;
+}
+#about h2::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+}
+#about img {
+	float: left;
+	margin: 10px 30px 20px 0px;
+	border-radius:100%;
+}
+#about-content p {
+	text-align: left;
+}
+#about-content a {
+	text-decoration: none;
+}
+#about-content a:hover {
+	text-decoration:underline;
+}
+
+/*------------SOCIAL------------*/
+
+#social h3 {
+	color: #000;
+}
+#social ul {
+	padding-left: 25px;
+	border-left: 1px solid #000;
+}
+#social ul li{
+	display: block;
+	margin-bottom: 10px;
+}
+#social ul li a{
+     background: url(../images/sprite-social-square.png);
+     text-indent: -9999px;
+     width: 50px;
+     height: 50px;
+     display: block;
+}
+#social ul li a.linkedIn {
+    background-position: 0px 0px;
+}
+#social ul li a.linkedIn:hover{
+    background-position: 0px -55px;
+}
+#social ul li a.behance {
+	background-position: -55px 0px;
+}
+#social ul li a.behance:hover{
+    background-position: -55px -55px;
+}
+#social ul li a.pinterest {
+	background-position: -110px 0px;
+}
+#social ul li a.pinterest:hover{
+    background-position: -110px -55px;
+}
+#social ul li a.twitter {
+	background-position: -165px 0px;
+}
+#social ul li a.twitter:hover{
+    background-position: -165px -55px;
+}
+
+/*------------CONTACT------------*/
+
+#contact {
+	background: #20d1b7;
+	/*padding: 60px 0;*/
+	padding: 0 0 60px 0;
+}
+#contact h3 {
+	font-size: 28px;
+}
+#contact a {
+	text-decoration: none;
+}
+#contact a:hover {
+	text-decoration:underline;
+}
+
+/*------------FORM------------*/
+
+#mail {
+	background: #fff;
+	padding: 60px 0;
+	text-align: left;
+}
+#mail h2 {
+     font-family: 'sanchez_slabregular', serif;
+     position: relative;
+     z-index: 2;
+     margin-bottom: 40px;
+}
+#mail h2 span {
+    background: #fff;
+    padding: 0 25px;
+}
+#mail h2::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+}
+#first-form {
+	margin-right: 30px;
+}
+form {
+	margin-right: 25px;
+	border-right: 1px solid #000;
+}
+form label {
+	text-align: left;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+form input[type="text"], input[type="email"] {
+	width: 95%;
+}
+form textarea {
+	min-width: 83%;
+}
+input[type="submit"] {
+	float: left;
+	color: #000;
+}
+
+/*------------EMAIL------------*/
+
+#write-email {
+	padding-left: 25px;
+}
+#write-email img {
+	margin: 5px 0 35px 0;
+}
+#write-email h3 {
+	color: #000;
+}
+#write-email a {
+	text-decoration: none;
+}
+#write-email a:hover {
+	text-decoration: underline;
+}
+#find-me {
+	padding-top: 25px;
+	border-top: 1px solid #000;
+}
+#find-me-social {
+	margin-top: 20px;
+}
+#find-me-social ul li {
+	display: inline-block;
+	margin: 0 5px;
+}
+#find-me-social ul li a{
+      background: url(../images/sprite-social-circle.png);
+     text-indent: -9999px;
+     width: 50px;
+     height: 50px;
+     display: inline-block;
+}
+#find-me-social ul li a.linkedIn {
+    background-position: 0px 0px;
+}
+#find-me-social ul li a.behance {
+	background-position: -55px 0px;
+}
+#find-me-social ul li a.pinterest {
+	background-position: -110px 0px;
+}
+#find-me-social ul li a.twitter {
+	background-position: -165px 0px;
+}
+
+/*------------FOOTER------------*/
+
+footer {
+	background: #000;
+	color: #fff;
+	padding: 30px 0 50px 0;
+	font-size: 14px;
+}
+footer p {
+	margin: 0 0 10px 0;
+}
+footer a{
+	color: #fff;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		.header-banner {
+			height: 20px;
+		}
+		#main-nav ul li a {
+			font-size: 18px;
+		}
+		#find-me-social ul li {
+			margin: 0;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+		.header-banner {
+			height: 20px;
+			margin-bottom: 40px;
+		}
+		#main-nav ul {
+			padding: 3px 0;
+			margin: 0;
+		}
+		#main-nav ul li{
+			margin-bottom: 8px;
+		}
+		#main-nav ul li.border {
+			border-right: 1px solid #000;
+		}
+		#main-nav ul li a {
+			margin: 0 7px;
+			font-size: 14px;
+		}
+		#services h4 {
+			text-align: center;
+			margin: 25px 0 5px 0;
+		}
+		#services p {
+			text-align: center;
+		}
+		#social ul {
+			padding: 25px 0;
+			border-top: 1px solid #000;
+			border-left: none;
+		}
+		#social ul li{
+			float: left;
+			margin: 0 27px
+		}
+		#social ul li a{
+		     background: url(../images/sprite-social-square.png);
+		     text-indent: -9999px;
+		     width: 50px;
+		     height: 50px;
+		}
+		#first-form {
+			margin-right: 30px;
+		}
+		form {
+			border-right: none;
+		}
+		form label {
+			text-align: left;
+			text-transform: uppercase;
+			margin-bottom: 5px;
+		}
+		form input[type="text"], input[type="email"] {
+			width: 95%;
+		}
+		form textarea {
+			min-width: 83%;
+		}
+		input[type="submit"] {
+			float: left;
+			color: #000;
+		}
+		#write-email {
+			padding-left: 0;
+			padding-top: 20px;
+			border-top: 1px solid #000;
+		}
+		#write-email h3 {
+			padding-top: 30px;
+		}
+		#write-email p {
+			padding-bottom: 15px;
+			border-bottom: none;
+		}
+
+	}	
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#main-nav {
+			margin: 6px 0;
+		}
+		#main-nav ul li a {
+			font-size: 18px;
+		}
+		.container .four.columns {
+			width: 200px;
+			margin: 0 5px;
+		}
+		.row {
+			margin-bottom: 3px;
+		}
+		.services-banner {
+			opacity: 0;
+		}
+		.circle {
+			margin-top: 30px;
+		}
+		#about ul {
+			padding-bottom: 0;
+		}
+		#mail {
+			padding: 30px 0;
+		}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.zigzag-up {
+			margin-top: 30px;
+		}
+		.zigzag-down {
+			margin-bottom: 30px;
+		}
+		#main-nav {
+			margin: 0;
+		}
+		#work {
+			padding: 20px 0;
+		}
+		.container .four.columns {
+			width: 145px;
+			margin: 0 2px;
+		}
+		.row {
+			margin-bottom: 3px;
+		}
+		#services h2 span {
+			padding: 0 15px;
+		}
+		.services-banner {
+			opacity: 0;
+		}
+		.circle {
+			margin-top: 30px;
+		}
+		#about {
+			padding: 20px 0;
+		}
+		#about h2 span {
+			padding: 0 15px;
+		}
+		#about img {
+			margin:5px 30px 25px 30px;
+		}
+		#social ul li{
+			float: left;
+			margin: 0 12px
+		}
+		#contact {
+			padding-bottom: 30px;
+		}
+		#mail {
+			padding: 20px 0;
+		}
+		#mail h2 span {
+			padding: 0 15px;
+		}
+		footer {
+			padding: 30px 0;
+		}
+
+	}
+
+
+/* #Font-Face
+================================================== */
+/* Sanchez Slab Regular */
+
+@font-face {
+    font-family: 'sanchez_slabregular';
+    src: url(../fonts/SanchezSlab-Regular-webfont.eot);
+    src: url(../fonts/SanchezSlab-Regular-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/SanchezSlab-Regular-webfont.woff) format('woff'),
+         url(../fonts/SanchezSlab-Regular-webfont.ttf) format('truetype'),
+         url(../fonts/SanchezSlab-Regular-webfont.svg#sanchez_slabregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Sofia Pro Light */
+
+@font-face {
+    font-family: 'sofia_pro_lightregular';
+    src: url(../fonts/SofiaProLight-webfont.eot);
+    src: url(../fonts/SofiaProLight-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/SofiaProLight-webfont.woff) format('woff'),
+         url(../fonts/SofiaProLight-webfont.ttf) format('truetype'),
+         url(../fonts/SofiaProLight-webfont.svg#sofia_pro_lightregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
