@@ -67,7 +67,6 @@ a:visited {
 
 header {
 	background: url(../images/bg-natural.jpg);
-	/*padding: 0 0 35px 0;*/
 }
 .header-banner {
 	background:url(../images/bg-banner.png);
@@ -400,23 +399,75 @@ footer a:hover {
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 959px) {}
 
+	/* Retina - Smaller than standard 960 (devices and browsers) */
+
+	@media only screen and (-webkit-min-device-pixel-ratio: 2)  and (max-width: 959px),
+	only screen and (   min--moz-device-pixel-ratio: 2)      	and (max-width: 959px),
+	only screen and (     -o-min-device-pixel-ratio: 2/1)    	and (max-width: 959px),
+	only screen and (        min-device-pixel-ratio: 2)      	and (max-width: 959px),
+	only screen and (               min-resolution: 192dpi) 	and (max-width: 959px),
+	only screen and (                min-resolution: 2dppx)  	and (max-width: 959px) { 
+
+		header {
+		background: url(../images/bg-natural-2x.jpg);
+		}
+		#services {
+		background:url(../images/bg-natural-2x.jpg);
+		}
+		#services h2 span {
+    	background: url(../images/bg-natural-2x.jpg);
+		}
+
+	}
+
+
+
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
-		
+		header {
+		background: url(../images/bg-natural.jpg);
+		}
 		.header-banner {
 			height: 20px;
 		}
 		#main-nav ul li a {
 			font-size: 18px;
 		}
+		#services {
+		background:url(../images/bg-natural.jpg);
+		}
+		#services h2 span {
+    	background: url(../images/bg-natural-2x.jpg);
+		}
 		#find-me-social ul li {
 			margin: 0;
 		}
 	}
 
+	/* Retina - Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (-webkit-min-device-pixel-ratio: 2)  and (min-width: 768px) and (max-width: 959px),
+	only screen and (   min--moz-device-pixel-ratio: 2)      	and (min-width: 768px) and (max-width: 959px),
+	only screen and (     -o-min-device-pixel-ratio: 2/1)    	and (min-width: 768px) and (max-width: 959px),
+	only screen and (        min-device-pixel-ratio: 2)      	and (min-width: 768px) and (max-width: 959px),
+	only screen and (               min-resolution: 192dpi) 	and (min-width: 768px) and (max-width: 959px),
+	only screen and (                min-resolution: 2dppx)  	and (min-width: 768px) and (max-width: 959px) { 
+		
+		header {
+		background: url(../images/bg-natural-2x.jpg);
+		}
+		#services {
+		background:url(../images/bg-natural-2x.jpg);
+		}
+		#services h2 span {
+    	background: url(../images/bg-natural-2x.jpg);
+		}
+	}
+
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		
+		header {
+		background: url(../images/bg-natural.jpg);
+		}
 		.header-banner {
 			height: 20px;
 			margin-bottom: 40px;
@@ -434,6 +485,12 @@ footer a:hover {
 		#main-nav ul li a {
 			margin: 0 7px;
 			font-size: 14px;
+		}
+		#services {
+		background:url(../images/bg-natural.jpg);
+		}
+		#services h2 span {
+    	background: url(../images/bg-natural.jpg);
 		}
 		#services h4 {
 			text-align: center;
@@ -493,8 +550,30 @@ footer a:hover {
 
 	}	
 
+	/* Retina - All Mobile Sizes (devices and browser) */
+	@media only screen and (-webkit-min-device-pixel-ratio: 2)  and (max-width: 767px),
+	only screen and (   min--moz-device-pixel-ratio: 2)      	and (max-width: 767px),
+	only screen and (     -o-min-device-pixel-ratio: 2/1)    	and (max-width: 767px),
+	only screen and (        min-device-pixel-ratio: 2)      	and (max-width: 767px),
+	only screen and (               min-resolution: 192dpi) 	and (max-width: 767px),
+	only screen and (                min-resolution: 2dppx)  	and (max-width: 767px) { 
+
+		header {
+		background: url(../images/bg-natural-2x.jpg);
+		}
+		#services {
+		background:url(../images/bg-natural-2x.jpg);
+		}
+		#services h2 span {
+    	background: url(../images/bg-natural-2x.jpg);
+		}
+	}
+
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		header {
+		background: url(../images/bg-natural.jpg);
+		}
 		#main-nav {
 			margin: 6px 0;
 		}
@@ -507,6 +586,12 @@ footer a:hover {
 		}
 		.row {
 			margin-bottom: 3px;
+		}
+		#services {
+		background:url(../images/bg-natural.jpg);
+		}
+		#services h2 span {
+    	background: url(../images/bg-natural.jpg);
 		}
 		.services-banner {
 			opacity: 0;
@@ -522,8 +607,31 @@ footer a:hover {
 		}
 	}
 
+
+	/* Retina - Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (-webkit-min-device-pixel-ratio: 2)  and (min-width: 480px) and (max-width: 767px),
+	only screen and (   min--moz-device-pixel-ratio: 2)      	and (min-width: 480px) and (max-width: 767px),
+	only screen and (     -o-min-device-pixel-ratio: 2/1)    	and (min-width: 480px) and (max-width: 767px),
+	only screen and (        min-device-pixel-ratio: 2)      	and (min-width: 480px) and (max-width: 767px),
+	only screen and (               min-resolution: 192dpi) 	and (min-width: 480px) and (max-width: 767px),
+	only screen and (                min-resolution: 2dppx)  	and (min-width: 480px) and (max-width: 767px) { 
+		
+		header {
+		background: url(../images/bg-natural-2x.jpg);
+		}
+		#services {
+		background:url(../images/bg-natural-2x.jpg);
+		}
+		#services h2 span {
+    	background: url(../images/bg-natural-2x.jpg);
+		}
+	}
+
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
+		header {
+		background: url(../images/bg-natural.jpg);
+		}
 		.zigzag-up {
 			margin-top: 30px;
 		}
@@ -543,7 +651,11 @@ footer a:hover {
 		.row {
 			margin-bottom: 3px;
 		}
+		#services {
+		background:url(../images/bg-natural.jpg);
+		}
 		#services h2 span {
+			background: url(../images/bg-natural.jpg);
 			padding: 0 15px;
 		}
 		.services-banner {
@@ -577,7 +689,25 @@ footer a:hover {
 		footer {
 			padding: 30px 0;
 		}
+	}
 
+	/* Retina - Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (-webkit-min-device-pixel-ratio: 2)  and (max-width: 479px),
+	only screen and (   min--moz-device-pixel-ratio: 2)      	and (max-width: 479px),
+	only screen and (     -o-min-device-pixel-ratio: 2/1)    	and (max-width: 479px),
+	only screen and (        min-device-pixel-ratio: 2)      	and (max-width: 479px),
+	only screen and (               min-resolution: 192dpi) 	and (max-width: 479px),
+	only screen and (                min-resolution: 2dppx)  	and (max-width: 479px) { 
+
+		header {
+		background: url(../images/bg-natural-2x.jpg);
+		}
+		#services {
+		background:url(../images/bg-natural-2x.jpg);
+		}
+		#services h2 span {
+    	background: url(../images/bg-natural-2x.jpg);
+		}
 	}
 
 
