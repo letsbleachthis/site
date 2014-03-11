@@ -408,7 +408,7 @@ footer a:hover {
 	only screen and (               min-resolution: 192dpi) 	and (max-width: 959px),
 	only screen and (                min-resolution: 2dppx)  	and (max-width: 959px) { 
 
-		header {
+		/*header {
 		background: url(../images/bg-natural-2x.jpg);
 		}
 		#services {
@@ -416,7 +416,7 @@ footer a:hover {
 		}
 		#services h2 span {
     	background: url(../images/bg-natural-2x.jpg);
-		}
+		}*/
 
 	}
 
@@ -437,7 +437,7 @@ footer a:hover {
 		background:url(../images/bg-natural.jpg);
 		}
 		#services h2 span {
-    	background: url(../images/bg-natural-2x.jpg);
+    	background: url(../images/bg-natural.jpg);
 		}
 		#find-me-social ul li {
 			margin: 0;
@@ -452,7 +452,7 @@ footer a:hover {
 	only screen and (               min-resolution: 192dpi) 	and (min-width: 768px) and (max-width: 959px),
 	only screen and (                min-resolution: 2dppx)  	and (min-width: 768px) and (max-width: 959px) { 
 		
-		header {
+		/*header {
 		background: url(../images/bg-natural-2x.jpg);
 		}
 		#services {
@@ -461,6 +461,7 @@ footer a:hover {
 		#services h2 span {
     	background: url(../images/bg-natural-2x.jpg);
 		}
+		*/
 	}
 
 	/* All Mobile Sizes (devices and browser) */
@@ -558,7 +559,7 @@ footer a:hover {
 	only screen and (               min-resolution: 192dpi) 	and (max-width: 767px),
 	only screen and (                min-resolution: 2dppx)  	and (max-width: 767px) { 
 
-		header {
+		/*header {
 		background: url(../images/bg-natural-2x.jpg);
 		}
 		#services {
@@ -566,7 +567,7 @@ footer a:hover {
 		}
 		#services h2 span {
     	background: url(../images/bg-natural-2x.jpg);
-		}
+		}*/
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -616,7 +617,7 @@ footer a:hover {
 	only screen and (               min-resolution: 192dpi) 	and (min-width: 480px) and (max-width: 767px),
 	only screen and (                min-resolution: 2dppx)  	and (min-width: 480px) and (max-width: 767px) { 
 		
-		header {
+		/*header {
 		background: url(../images/bg-natural-2x.jpg);
 		}
 		#services {
@@ -624,7 +625,7 @@ footer a:hover {
 		}
 		#services h2 span {
     	background: url(../images/bg-natural-2x.jpg);
-		}
+		}*/
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -699,7 +700,7 @@ footer a:hover {
 	only screen and (               min-resolution: 192dpi) 	and (max-width: 479px),
 	only screen and (                min-resolution: 2dppx)  	and (max-width: 479px) { 
 
-		header {
+		/*header {
 		background: url(../images/bg-natural-2x.jpg);
 		}
 		#services {
@@ -708,6 +709,7 @@ footer a:hover {
 		#services h2 span {
     	background: url(../images/bg-natural-2x.jpg);
 		}
+		*/
 	}
 
 
