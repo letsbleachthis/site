@@ -205,13 +205,6 @@ header .zigzag-up {
 #about-content p {
 	text-align: left;
 }
-#about-content a {
-	text-decoration: none;
-}
-#about-content a:hover {
-	text-decoration:underline;
-}
-
 /*------------SOCIAL------------*/
 
 #social h3 {
@@ -406,7 +399,7 @@ footer a:hover {
 	only screen and (     -o-min-device-pixel-ratio: 2/1)    	and (max-width: 959px),
 	only screen and (        min-device-pixel-ratio: 2)      	and (max-width: 959px),
 	only screen and (               min-resolution: 192dpi) 	and (max-width: 959px),
-	only screen and (                min-resolution: 2dppx)  	and (max-width: 959px) { 
+	only screen and (                min-resolution: 2dppx)  	and (max-width: 959px) {
 
 		/*header {
 		background: url(../images/bg-natural-2x.jpg);
@@ -450,8 +443,8 @@ footer a:hover {
 	only screen and (     -o-min-device-pixel-ratio: 2/1)    	and (min-width: 768px) and (max-width: 959px),
 	only screen and (        min-device-pixel-ratio: 2)      	and (min-width: 768px) and (max-width: 959px),
 	only screen and (               min-resolution: 192dpi) 	and (min-width: 768px) and (max-width: 959px),
-	only screen and (                min-resolution: 2dppx)  	and (min-width: 768px) and (max-width: 959px) { 
-		
+	only screen and (                min-resolution: 2dppx)  	and (min-width: 768px) and (max-width: 959px) {
+
 		/*header {
 		background: url(../images/bg-natural-2x.jpg);
 		}
@@ -549,7 +542,7 @@ footer a:hover {
 			border-bottom: none;
 		}
 
-	}	
+	}
 
 	/* Retina - All Mobile Sizes (devices and browser) */
 	@media only screen and (-webkit-min-device-pixel-ratio: 2)  and (max-width: 767px),
@@ -557,7 +550,7 @@ footer a:hover {
 	only screen and (     -o-min-device-pixel-ratio: 2/1)    	and (max-width: 767px),
 	only screen and (        min-device-pixel-ratio: 2)      	and (max-width: 767px),
 	only screen and (               min-resolution: 192dpi) 	and (max-width: 767px),
-	only screen and (                min-resolution: 2dppx)  	and (max-width: 767px) { 
+	only screen and (                min-resolution: 2dppx)  	and (max-width: 767px) {
 
 		/*header {
 		background: url(../images/bg-natural-2x.jpg);
@@ -615,8 +608,8 @@ footer a:hover {
 	only screen and (     -o-min-device-pixel-ratio: 2/1)    	and (min-width: 480px) and (max-width: 767px),
 	only screen and (        min-device-pixel-ratio: 2)      	and (min-width: 480px) and (max-width: 767px),
 	only screen and (               min-resolution: 192dpi) 	and (min-width: 480px) and (max-width: 767px),
-	only screen and (                min-resolution: 2dppx)  	and (min-width: 480px) and (max-width: 767px) { 
-		
+	only screen and (                min-resolution: 2dppx)  	and (min-width: 480px) and (max-width: 767px) {
+
 		/*header {
 		background: url(../images/bg-natural-2x.jpg);
 		}
@@ -698,7 +691,7 @@ footer a:hover {
 	only screen and (     -o-min-device-pixel-ratio: 2/1)    	and (max-width: 479px),
 	only screen and (        min-device-pixel-ratio: 2)      	and (max-width: 479px),
 	only screen and (               min-resolution: 192dpi) 	and (max-width: 479px),
-	only screen and (                min-resolution: 2dppx)  	and (max-width: 479px) { 
+	only screen and (                min-resolution: 2dppx)  	and (max-width: 479px) {
 
 		/*header {
 		background: url(../images/bg-natural-2x.jpg);
