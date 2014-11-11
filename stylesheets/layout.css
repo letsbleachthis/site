@@ -231,10 +231,10 @@ header .zigzag-up {
 #social ul li a.linkedIn:hover{
     background-position: 0px -55px;
 }
-#social ul li a.behance {
+#social ul li a.dribbble {
 	background-position: -55px 0px;
 }
-#social ul li a.behance:hover{
+#social ul li a.dribbble:hover{
     background-position: -55px -55px;
 }
 #social ul li a.pinterest {
