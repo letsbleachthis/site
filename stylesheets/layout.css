@@ -62,7 +62,15 @@ a:visited {
 	height: 16px;
 	margin-bottom: 60px;
 }
-
+/*------------UNDER CONSTRUCTION------------*/
+#construction {
+	padding: 60px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+#construction p {
+	font-size: 22px;
+}
 /*------------HEADER------------*/
 
 header {
